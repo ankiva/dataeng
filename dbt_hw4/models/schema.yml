@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+        - name: dellstore_dataset
+          database: dellstore
+          schema: public
+          tables:
+                - name: products
+                - name: orders
+                - name: customers
+                - name: task1
